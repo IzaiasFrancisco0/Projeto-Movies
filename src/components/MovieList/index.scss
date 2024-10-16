@@ -1,0 +1,23 @@
+.movie-container {
+    padding: 24px 3%;
+
+    .sub-header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        color: #fff;
+        margin-bottom: 24px;
+
+        .title {
+            font-size: 32px;
+        }
+    }
+    
+    .movie-list {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        gap: 16px;
+        list-style: none;
+        width: 100%;
+    }
+}

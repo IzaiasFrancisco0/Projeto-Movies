@@ -1,0 +1,14 @@
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    padding: 4px 3%;
+    justify-content: space-between;
+    background-color: $color-primary-100;
+
+    .page-title {
+        color: #fff;
+    }
+}
